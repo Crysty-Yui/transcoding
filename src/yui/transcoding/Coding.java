@@ -1,4 +1,4 @@
-package yui.gbk2uft8;
+package yui.transcoding;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

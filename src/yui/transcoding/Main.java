@@ -1,4 +1,4 @@
-package yui.gbk2uft8;
+package yui.transcoding;
 
 import java.io.File;
 import java.util.Scanner;
@@ -9,6 +9,7 @@ public class Main {
 	private static String rootPath = "G:\\Projects\\JavaSE\\Yui-net\\src";
 
 	public static void start(String path) {
+		System.out.println(path);
 		File rootFile = new File(path);
 		File[] files = rootFile.listFiles();
 		if (files == null) {
